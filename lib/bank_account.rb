@@ -10,6 +10,7 @@ attr_reader :name
   end
 
   def deposit(money)
+    @balance += 1000
     
   end
   
